@@ -1,7 +1,15 @@
 body {
   padding: 20px;
+  font-size: 16px;
 }
 
 #download-all {
   display: none;
+}
+
+/* Smaller screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 20px;
+  }
 }
